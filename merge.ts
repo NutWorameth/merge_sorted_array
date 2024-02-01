@@ -24,7 +24,7 @@ export function merge (collection_1: number[] , collection_2: number[] ) :number
             merged[k] = collection_2[j];
             j++;k++;
         }
-        console.log(merged);
+        // console.log(merged);
     }
     return merged;
 };
